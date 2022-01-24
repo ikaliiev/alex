@@ -16,7 +16,7 @@ a { display: inline-block;
 a:hover {
     text-decoration: none;
     color: #400808;
-    transform: scale(1.2);
+    font-size:150%;
 }
 
 tr {
@@ -30,7 +30,7 @@ footer {
 footer:hover {
     text-decoration: none;
     color: #400808;
-    transform: scale(1.2);
+    font-size:150%;
 }
 
 th {
@@ -62,7 +62,7 @@ img.photo {
 .icon:hover {
     text-decoration: none;
     color: #400808;
-    transform: scale(1.2)
+    font-size:150%
     
 }
 p.text
