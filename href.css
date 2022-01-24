@@ -1,57 +1,67 @@
-tr.header
-{
-  position: fixed;
+tr.header {
+    position: fixed;
 }
 
 body {
-  background-image: url("wallpaper.jpg");
-  background-size: 300%;
+    background-image: url("wallpaper.jpg");
+    background-size: 300%;
 }
+
 a {
-    color: #0d0d0d; 
-    padding: 2px; 
+    color: #0d0d0d;
+    padding: 2px;
     text-decoration: none
-   }
+}
+
 a:hover {
-    text-decoration: none; 
+    text-decoration: none;
     color: #400808;
-   }
+    transform: scale(1.2);
+}
 
 tr {
-    color: #eff0e4; 
+    color: #eff0e4;
 }
+
 footer {
-    color: #171717; 
+    color: #171717;
 }
+
 footer:hover {
-    text-decoration: none; 
+    text-decoration: none;
     color: #400808;
-   }
+    transform: scale(1.2);
+}
+
 th {
-  color: black;
+    color: black;
 }
 
 th.odd {
-  background-color: #646968;
-  opacity: 0.8
-}
-span.icon 
-{
-    font-size: 2em; 
-    display: block; 
-   }
-th.smile
-{
-  font-size: 4em
-}
-img.photo
-{
- border-radius: 20px 
-}
-.contacts
-{
-  
-  width: 50px;
-  height: 50px;
+    background-color: #646968;
+    opacity: 0.8
 }
 
+span.icon {
+    font-size: 2em;
+    display: block;
+}
+
+th.smile {
+    font-size: 4em
+}
+
+img.photo {
+    border-radius: 20px
+}
+
+.contacts {
+    width: 50px;
+    height: 50px;
+}
+.icon:hover {
+    text-decoration: none;
+    color: #400808;
+    transform: scale(1.2)
+    
+}
