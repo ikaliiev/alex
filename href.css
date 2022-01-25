@@ -18,8 +18,12 @@ a:hover {
     text-decoration: none;
     color: #400808;
     font-size:150%;
-    transition: 2s
+    transition: 2s;
 }
+a:not(:hover) {
+  transition: 2s;
+}
+
 
 tr {
     color: #eff0e4;
@@ -33,8 +37,12 @@ footer:hover {
     text-decoration: none;
     color: #400808;
     font-size:150%;
-    transition: 2s
+    transition: 2s;
 }
+footer:not(:hover) {
+  transition: 2s;
+}
+
 
 th {
     color: black;
@@ -66,9 +74,12 @@ img.photo {
     text-decoration: none;
     color: #400808;
     font-size:150%;
-    transition: 2s
-    
+    transition: 2s;    
 }
+.icon:not(:hover) {
+  transition: 2s;
+}
+
 p.text
 {
 width: 50%;
@@ -117,129 +128,9 @@ p.menu_text
 {
 
 font-size: 100%;
-font-family: "comic sans ms"
-}
-
-        tr.header {
-    position: fixed;
-    
-}
-
-body {
-    background-image: url("wallpaper.jpg");
-    background-size: 300%;
-}
-
-a { display: inline-block;
-    color: #0d0d0d;
-    padding: 2px;
-    text-decoration: none
-}
-
-a:hover {
-    text-decoration: none;
-    color: #400808;
-    font-size:150%;
-    transition: 2s
-}
-
-tr {
-    color: #eff0e4;
-}
-
-footer {
-    color: #171717;
-}
-
-footer:hover {
-    text-decoration: none;
-    color: #400808;
-    font-size:150%;
-    transition: 2s
-}
-
-th {
-    color: black;
-}
-
-th.odd {
-    background-color: #646968;
-    opacity: 0.8
-}
-
-span.icon {
-    font-size: 2em;
-    display: block;
-}
-
-th.smile {
-    font-size: 4em
-}
-
-img.photo {
-    border-radius: 20px
-}
-
-.contacts {
-    width: 30px;
-    height: 30px;
-}
-.icon:hover {
-    text-decoration: none;
-    color: #400808;
-    font-size:150%;
-    transition: 2s
-    
-}
-p.text
-{
-width: 50%;
-font-size: 150%;
-font-family: "comic sans ms"
-}
-a.link
-{
-width: 100%;
-font-size: 150%;
 font-family: "comic sans ms";
-color: black;
-
 }
-p.hello
-{
-font-size: 250%;
-font-family: "comic sans ms";
-color: black 
-}
-.wrap {
-            display: flex;
-            flex: 1 1 auto;   
-        }
-
-        .card {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-self: flex-start;
-            width: 70%;
-            padding: 35px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-.card__item {
-            display: flex;
-            flex-direction: column;
-            width: calc(35% - 30px);
-            box-sizing: border-box;
-            padding: 20px;
-            min-height: 300px;
-            text-align: center
-        }
-p.menu_text
-{
-
-font-size: 100%;
-font-family: "comic sans ms"
+video {
+    object-fit: contain;
 }
 
-        
