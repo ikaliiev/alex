@@ -133,4 +133,14 @@ font-family: "comic sans ms";
 video {
     object-fit: fill;
 }
+.image:hover
+{
+  width: 110%;
+  height: auto;
+  transition: 2s;
+}
+.image:not(:hover) {
+  
+  transition: 2s;
+}
 
