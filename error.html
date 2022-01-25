@@ -19,8 +19,8 @@
     </table>
   <center>
     <script type="text/javascript">
-const urlSearchParams = new URLSearchParams(window.location.search);
-const params = Object.fromEntries(urlSearchParams.entries());
+host = window.location.pathname;
+document.write(host.split("/")[1]);
 </script>
     <img src="404.jpg">
   <p><font size="15" color="grey" face="comic sans ms">Какая-то несуществующая страница, сорян</font></p>
