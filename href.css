@@ -135,12 +135,11 @@ video {
 }
 .image:hover
 {
-  width: 110%;
-  height: auto;
+  transform: scale(1.2);
+ display: block;
   transition: 2s;
 }
-.image:not(:hover) {
-  
-  transition: 2s;
+.image {
+transition: 2s;
 }
 
