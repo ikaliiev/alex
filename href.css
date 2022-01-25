@@ -131,6 +131,6 @@ font-size: 100%;
 font-family: "comic sans ms";
 }
 video {
-    object-fit: contain;
+    object-fit: fill;
 }
 
