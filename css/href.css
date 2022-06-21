@@ -1,0 +1,184 @@
+body {
+	background-image: url("../images/wallpaper.jpg");
+	background-size: 100%;
+}
+
+.menu_icon {
+	font-family: "comic sans ms";
+}
+
+.menu_icon:hover {
+	text-decoration: none;
+	color: #798f8c;
+}
+
+.menu_image {
+	width: 15px;
+}
+
+.main {
+	text-align: center;
+}
+
+.hello {
+	text-align: center;
+	font-size: 250%;
+	font-family: "comic sans ms";
+	color: black
+}
+
+.emoji {
+	margin: auto;
+	text-align: center;
+	font-family: "comic sans ms";
+}
+
+tr.smile:nth-child(even) {
+	color: white;
+	background-color: #1b1f1e;
+}
+
+a {
+	display: inline-block;
+	color: #0d0d0d;
+	padding: 2px;
+	text-decoration: none
+}
+
+.smile {
+	font-size: 2em;
+	font-family: "comic sans ms";
+}
+
+img.photo {
+	border-radius: 20px
+}
+
+.wrap {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-self: flex-start;
+	width: 70%;
+	padding: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card__item {
+	display: flex;
+	flex-direction: column;
+	width: calc(35% - 30px);
+	box-sizing: border-box;
+	padding: 20px;
+	min-height: 300px;
+	text-align: center
+}
+
+.menu_text {
+	font-size: 100%;
+	font-family: "comic sans ms";
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	text-align: center
+}
+
+.menu_text:hover {
+	text-decoration: none;
+	color: #798f8c;
+	font-size: 105%;
+	transition: 0.2s;
+}
+
+video {
+	object-fit: fill;
+}
+
+.image:hover {
+	transform: scale(1.1);
+	display: block;
+	transition: 0.2s;
+}
+
+.image {
+	transition: 0.2s;
+}
+
+.text {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 150%;
+	font-family: "comic sans ms"
+}
+
+.footer {
+	text-align: center;
+	color: #272525;
+}
+
+.link {
+	font-size: 130%;
+	font-family: "comic sans ms";
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #798f8c;
+	font-size: 140%;
+	transition: 0.2s;
+}
+
+.error {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 130%;
+}
+
+.contacts {
+	text-align: center;
+}
+
+.email {
+	display: flex;
+	justify-content: center;
+}
+
+.email_image {
+	width: 26px;
+	height: 23px;
+	background-image: url("../images/email.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.inst_image {
+	width: 30px;
+	height: 30px;
+}
+.inst {
+	display: flex;
+	justify-content: center;
+}
+.inst_image {
+	width: 26px;
+	height: 23px;
+	background-image: url("../images/inst.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+.registration {
+	text-align: center;
+	font-family: "comic sans ms";
+
+}
