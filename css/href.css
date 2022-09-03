@@ -188,3 +188,102 @@ video {
 	padding-right: 45%;
   }
   
+.jss257 {
+	color: #9B9B9B;
+	height: 55px;
+	font-size: 14px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+	font-style: normal;
+	text-align: left;
+	font-weight: 600;
+	line-height: 19px;
+	border-radius: 10px 0px 0px 0px;
+  }
+  .jss258 {
+	width: auto;
+	padding-left: 24px;
+  }
+  .jss259 {
+	width: auto;
+	padding-right: 24px;
+  }
+  .jss260 {
+	width: auto;
+  }
+  
+  .jss261 {
+	height: 60px;
+	border-bottom: 1px solid;
+	border-bottom-color: #EDEDED;
+  }
+  .jss262 {
+	height: 60px;
+  }
+  .jss263 {
+	padding-left: 24px;
+  }
+  .jss292 {
+	padding-left: 24px;
+  }
+  .jss293 {
+	color: #F44343;
+  }
+  
+  .jss296 {
+	flex: none;
+	color: #FFFFFF;
+	order: 0;
+	flex-grow: 0;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+  }
+  
+  .jss299 {
+	gap: 10px;
+	left: 79.29%;
+	right: 12.65%;
+	border: none;
+	height: 28px;
+	display: flex;
+	padding: 10px 8px;
+	min-width: 87px;
+	background: #0071EC;
+	align-items: center;
+	border-radius: 4px;
+	flex-direction: row;
+	justify-content: center;
+  }
+  
+  .jss301 {
+	font: inherit;
+	width: 40px;
+	border: none;
+	height: 24px;
+	padding: 0;
+	background: #DBDBDB;
+	border-radius: 24px;
+	transition-duration: 0.2s;
+	transition-property: background;
+  }
+  .jss301:hover {
+	cursor: pointer;
+  }
+  
+  
+  .jss303 {
+	left: 1px;
+	width: 22px;
+	height: 22px;
+	position: relative;
+	background: #FFFFFF;
+	box-shadow: 0px 2.29412px 6.11765px rgba(0, 0, 0, 0.15), 0px 2.29412px 0.764706px rgba(0, 0, 0, 0.06);
+	border-radius: 22px;
+	transition-duration: 0.2s;
+	transition-property: left;
+  }
+  
+  
+  
+  
