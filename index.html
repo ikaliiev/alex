@@ -1,52 +1,98 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
-  "http://www.w3.org/TR/html4/strict.dtd">
+   "http://www.w3.org/TR/html4/strict.dtd">
 <html>
- <head>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <title>Deus Te Tuosque tueatur главная</title>
-  <meta charset="utf-8">
-  <link href="href.css" rel="stylesheet" type="text/css">
- </head>
- <body>
+   <head>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <title>Тестовая страница с формой регистрации</title>
+      <meta charset="utf-8">
+      <link href="css/href.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <div class ="header">
+         
+            <tr class = "header">
+               <td>
+                  <a href="index.html">
+                     <span>
+                     <p class = "menu_icon"><span>
+                        <p class = "menu_icon"><span><img src="home.png" class = "menu_image"></span>Главная</p>
+                  </a>
+               </td>
+               <td>
+                  <a href="emoji.html">
+                     <span>
+                     <p class = "menu_icon"><span><img src="emoji.png" class = "menu_image"></span>Emoji</p>
+                  </a>
+               </td>
+               <td>
+                  <a href="contacts.html">
+                     <span>
+                     <p class = "menu_icon"><span><img src="contacts.png" class = "menu_image"></span>Контакты</p>
+                  </a>
+               </td>
+            </tr>
+         
+      </div>
+      <div class = "main">
+         
+         <p class = "registration">Регистрация (пилится)</p>
+         <form method="POST" class ="registration">
+                <div class="field">firstname: <input type ="text" name="name" id="signup-name"></div>
+                <div class="field">email: <input type="text" name="email" id="signup-email"></div>
+                <div class="field">phone: <input type="text" name="phone" id="signup-phone"></div>
+                <div class="field">password: <input type="text" name="pass" id="signup-pass"></div>
+               <input type="submit" value="send" id="signup-submit">
+        </form> 
+        <script src="ajax.js"></script>
+        <script src="script.js"></script>
+         
 
- <table>
 
-      <tr class = "header">
-            <th><a href="index.html"><span class="icon">&#9760</span> Главная</a></th>
-            <th><a href="emoji.html"><span class="icon">&#128579</span>Emoji</a></th>
-            <th><a href="contacts.html"><span class="icon">&#9992</span>Контакты</a></th>
-
-      </tr>
-            
-    </table>
-  <center>
-  <p class ="hello">Deus Te Tuosque tueatur</p>
-  
-    <video autoplay loop muted playsinline oncontextmenu="return false;" data-cy="site-masthead-video">
-                                    <source src="video.mp4"
-                                            type="video/mp4" />
-                                    Your browser does not support HTML video.
-                                </video>
-
-<div class="wrap">
+        <p class = "registration">Войти (пока не работает)</p>
+         <form>
+        <div>email: <input type="text" name="email" id="login-email"></div> 
+        <div>password: <input type="text" name="pass" id="login-pass"></div>
+        <input type="submit" value="login" id="login-submit">
         
-        <div class="card">
-            <div class="card__item"><img src="photographer.jpg" class = "image">
-                <p class = "menu_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </form>
+        <table class="jss256"><tbody>
+        <tr class="jss257"><th class="jss258">Item1</th><th class="jss260">Item2</th>
+         <th class="jss260">Item3</th><th class="jss260">Item4</th><th class="jss260">Status</th>
+         <th class="jss259">Item5</th></tr>
+        <tr class="jss261"><td class="jss292"><div class="jss293">condition1</div></td>
+         <td>condition2</td><td>condition3</td><td>-</td><td><div>
+         <button class="jss299" disabled=""><div class="jss296">condition4</div></button>
+      </div></td><td><button class="jss301"><div class="jss303"></div></button></td></tr>
+   </tbody></table>
+         <div class="wrap">
+            <div class="card">
+               <div class="card__item">
+                  <img src="photographer.jpg" class = "image">
+                  <p class = "menu_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+               </div>
+               <div class="card__item">
+                  <img src="carts.jpg"  class = "image">
+                  <p class = "menu_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+               </div>
+               <div class="card__item">
+                  <img src="sport.jpg"  class = "image">
+                  <p class = "menu_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+               </div>
             </div>
-            <div class="card__item"><img src="carts.jpg"  class = "image">
-                <p class = "menu_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            </div>
-            <div class="card__item"><img src="sport.jpg"  class = "image">
-                <p class = "menu_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            </div>
- </div>
-        <aside></aside>
-    </div>
-
-  <p class = "text">Чо как? <br> When you first start off trying to solve a problem, the first solutions you come up with are very complex, and most people stop there. But if you keep going, and live with the problem and peel more layers of the onion off, you can often times arrive at some very elegant and simple solutions.</p>
-  <a href="https://www.google.com.ua" target="_blank" class = "link"><footer>Переходи по ссылке, если скучно</footer></a>
-</center>
-<script> !function (t, e, c, n) { var s = e.createElement(c); s.async = 1, s.src = 'https://statics.esputnik.com/scripts/' + n + '.js'; var r = e.scripts[0]; r.parentNode.insertBefore(s, r); var f = function () { f.c(arguments); }; f.q = []; f.c = function () { f.q.push(arguments); }; t['eS'] = t['eS'] || f; }(window, document, 'script', '4D25262BEF464A518B4EDAD72B75BD3C'); </script><script>eS('init');</script>
- </body>
+         </div>
+         
+            <div class = "text">Чо как? <br> When you first start off trying to solve a problem, the first solutions you come up with are very complex, and most people stop there. But if you keep going, and live with the problem and peel more layers of the onion off, you can often times arrive at some very elegant and simple solutions.</div>
+         
+      </div>
+      <footer class ="footer">
+         <a href="https://www.google.com.ua" target="_blank" class = "link">
+         Переходи по ссылке, если скучно</a>
+      </footer>
+      <script> !function (t, e, c, n) { var s = e.createElement(c); s.async = 1,
+         s.src = 'https://statics.esputnik.com/scripts/' + n + '.js';
+         var r = e.scripts[0]; r.parentNode.insertBefore(s, r); var f = function () { f.c(arguments); }; 
+         f.q = []; f.c = function () { f.q.push(arguments); }; t['eS'] = t['eS'] || f; }(window, document,
+          'script', '4D25262BEF464A518B4EDAD72B75BD3C'); 
+        </script><script>eS('init');</script>
+   </body>
 </html>

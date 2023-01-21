@@ -1,0 +1,294 @@
+body {
+	background-image: url("../images/wallpaper.jpg");
+	background-size: 100%;
+}
+
+.menu_icon {
+	font-family: "comic sans ms";
+}
+
+.menu_icon:hover {
+	text-decoration: none;
+	color: #798f8c;
+}
+
+.menu_image {
+	width: 15px;
+}
+
+.main {
+	text-align: center;
+}
+
+.hello {
+	text-align: center;
+	font-size: 250%;
+	font-family: "comic sans ms";
+	color: black
+}
+
+.emoji {
+	margin: auto;
+	text-align: center;
+	font-family: "comic sans ms";
+}
+
+tr.smile:nth-child(even) {
+	color: white;
+	background-color: #1b1f1e;
+}
+
+a {
+	display: inline-block;
+	color: #0d0d0d;
+	padding: 2px;
+	text-decoration: none
+}
+
+.smile {
+	font-size: 2em;
+	font-family: "comic sans ms";
+}
+
+img.photo {
+	border-radius: 20px
+}
+
+.wrap {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-self: flex-start;
+	width: 70%;
+	padding: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card__item {
+	display: flex;
+	flex-direction: column;
+	width: calc(35% - 30px);
+	box-sizing: border-box;
+	padding: 20px;
+	min-height: 300px;
+	text-align: center
+}
+
+.menu_text {
+	font-size: 100%;
+	font-family: "comic sans ms";
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	text-align: center
+}
+
+.menu_text:hover {
+	text-decoration: none;
+	color: #798f8c;
+	font-size: 105%;
+	transition: 0.2s;
+}
+
+video {
+	object-fit: fill;
+}
+
+.image:hover {
+	transform: scale(1.1);
+	display: block;
+	transition: 0.2s;
+}
+
+.image {
+	transition: 0.2s;
+}
+
+.text {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 150%;
+	font-family: "comic sans ms"
+}
+
+.footer {
+	text-align: center;
+	color: #272525;
+}
+
+.link {
+	font-size: 130%;
+	font-family: "comic sans ms";
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #798f8c;
+	font-size: 140%;
+	transition: 0.2s;
+}
+
+.error {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 130%;
+}
+
+.contacts {
+	text-align: center;
+}
+
+.email {
+	display: flex;
+	justify-content: center;
+}
+
+.email_image {
+	width: 26px;
+	height: 23px;
+	background-image: url("../images/email.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.inst_image {
+	width: 30px;
+	height: 30px;
+}
+.inst {
+	display: flex;
+	justify-content: center;
+}
+.inst_image {
+	width: 26px;
+	height: 23px;
+	background-image: url("../images/inst.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+.registration {
+	text-align: center;
+	font-family: "comic sans ms";
+
+}
+.field {
+	clear:both; 
+	text-align:right;
+	padding-right: 45%;
+  }
+  
+.jss257 {
+	color: #9B9B9B;
+	height: 55px;
+	font-size: 14px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+	font-style: normal;
+	text-align: left;
+	font-weight: 600;
+	line-height: 19px;
+	border-radius: 10px 0px 0px 0px;
+  }
+  .jss258 {
+	width: auto;
+	padding-left: 24px;
+  }
+  .jss259 {
+	width: auto;
+	padding-right: 24px;
+  }
+  .jss260 {
+	width: auto;
+  }
+  
+  .jss261 {
+	height: 60px;
+	border-bottom: 1px solid;
+	border-bottom-color: #EDEDED;
+  }
+  .jss262 {
+	height: 60px;
+  }
+  .jss263 {
+	padding-left: 24px;
+  }
+  .jss292 {
+	padding-left: 24px;
+  }
+  .jss293 {
+	color: #F44343;
+  }
+  
+  .jss296 {
+	flex: none;
+	color: #FFFFFF;
+	order: 0;
+	flex-grow: 0;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+  }
+  
+  .jss299 {
+	gap: 10px;
+	left: 79.29%;
+	right: 12.65%;
+	border: none;
+	height: 28px;
+	display: flex;
+	padding: 10px 8px;
+	min-width: 87px;
+	background: #0071EC;
+	align-items: center;
+	border-radius: 4px;
+	flex-direction: row;
+	justify-content: center;
+  }
+  
+  .jss301 {
+	font: inherit;
+	width: 40px;
+	border: none;
+	height: 24px;
+	padding: 0;
+	background: #DBDBDB;
+	border-radius: 24px;
+	transition-duration: 0.2s;
+	transition-property: background;
+  }
+  .jss301:hover {
+	cursor: pointer;
+  }
+  
+  
+  .jss303 {
+	left: 1px;
+	width: 22px;
+	height: 22px;
+	position: relative;
+	background: #FFFFFF;
+	box-shadow: 0px 2.29412px 6.11765px rgba(0, 0, 0, 0.15), 0px 2.29412px 0.764706px rgba(0, 0, 0, 0.06);
+	border-radius: 22px;
+	transition-duration: 0.2s;
+	transition-property: left;
+  }
+  .jss256 {
+	width: 100%;
+	border-radius: 10px;
+	background-color: #fff;
+  }
+  
+  
+  
+  
